@@ -11,6 +11,11 @@ English: [README.en.md](README.en.md)
 - 姐妹仓：[amber-commandcode](https://github.com/getaskclaw/amber-commandcode)（CommandCode 道）、[amber-opencode](https://github.com/getaskclaw/amber-opencode)（OpenCode Go 道）、[amber-deepseek](https://github.com/getaskclaw/amber-deepseek)、[amber-gpt](https://github.com/getaskclaw/amber-gpt)、[amber-crof](https://github.com/getaskclaw/amber-crof)、[amber-ollama](https://github.com/getaskclaw/amber-ollama)、[amber-devin](https://github.com/getaskclaw/amber-devin)。本仓的对照轴是**同名模型跨厂商对决**——同一个模型名在 Nous Portal / CommandCode / xAI 官方道上可能是不同端点，跨仓引用一律带日期与档位声明。
 - AMBER 是 agentic 实战题库（施工/运维/审查/视觉/需求漂移），规范与制题工具见 [getaskclaw/amber](https://github.com/getaskclaw/amber)；考题本体私有。
 
+## 最新成绩
+
+- **2026-W39** — x-ai/grok-4.7 全库首考 13/24：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [白话版解读](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
+
+
 ## 发布纪律（红线）
 
 1. 只发：分数与聚合、token 用量与成本、速度、定性裁决。

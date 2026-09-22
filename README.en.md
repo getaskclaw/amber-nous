@@ -11,6 +11,11 @@ Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) aga
 - Sibling repos: [amber-commandcode](https://github.com/getaskclaw/amber-commandcode), [amber-opencode](https://github.com/getaskclaw/amber-opencode), [amber-deepseek](https://github.com/getaskclaw/amber-deepseek), [amber-gpt](https://github.com/getaskclaw/amber-gpt), [amber-crof](https://github.com/getaskclaw/amber-crof), [amber-ollama](https://github.com/getaskclaw/amber-ollama), [amber-devin](https://github.com/getaskclaw/amber-devin). The comparison axis here is **same model name, different vendor lanes** — a model name on Nous Portal / CommandCode / xAI official may be a different endpoint; cross-repo references always carry date and effort-band declarations.
 - AMBER is an agentic, real-work suite (build / ops / review / vision / requirement-drift). Spec and tooling: [getaskclaw/amber](https://github.com/getaskclaw/amber); the question bodies stay private.
 
+## Latest results
+
+- **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24: [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [plain-language explainer](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
+
+
 ## Publication rules (hard lines)
 
 1. Publish only: scores and aggregates, token usage and cost, speed, qualitative verdicts.
