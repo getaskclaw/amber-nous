@@ -3,6 +3,8 @@
 用私有题库 **AMBER** 实测 Nous Portal（inference-api.nousresearch.com）在售模型，只公开结果，不公开题目。
 English: [README.en.md](README.en.md)
 
+> **一句话**：我们给 AI 模型出「真实工作考卷」——修 bug、查事故原因、看系统截图挑毛病、真上手运维——这个仓放 **Nous Portal 商店里模型**的成绩单。最新一期：Grok 4.7 考 24 题过 13 题，查事故原因全家最强，但有 7 题只写了一句计划就交卷。
+
 ## 这是什么
 
 - 每期一篇 `results/YYYY-Www.md`：同题、同 harness，对目标模型跑全库；同名模型跨厂商并排。
@@ -14,6 +16,8 @@ English: [README.en.md](README.en.md)
 ## 最新成绩
 
 - **2026-W39** — x-ai/grok-4.7 全库首考 13/24：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [图解版](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
+
+![逐轴胜率对拍](results/assets/2026-W39-axes.zh.png)
 
 
 ## 发布纪律（红线）

@@ -3,6 +3,8 @@
 Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
 中文: [README.md](README.md)
 
+> **In one line**: we hand AI models real work — fix a bug, find a root cause, review a system screenshot, operate a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Grok 4.7 passed 13 of 24 tasks, is the family's best root-cause detective, and on 7 tasks it wrote one line of plan and handed in the page.
+
 ## What this is
 
 - One `results/YYYY-Www.md` per period: same questions, same harness, full-library runs; same-named models compared across vendors.
@@ -14,6 +16,8 @@ Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) aga
 ## Latest results
 
 - **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24: [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [explainer with chart](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
+
+![Win rate per axis](results/assets/2026-W39-axes.en.png)
 
 
 ## Publication rules (hard lines)
