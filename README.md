@@ -7,11 +7,16 @@ English: [README.en.md](README.en.md)
 
 ## 这是什么
 
-- 每期一篇 `results/YYYY-Www.md`：同题、同 harness，对目标模型跑全库；同名模型跨厂商并排。
-- 一期固定报告：题集规模与哈希、每案 d2 分与通过/失败、终端终态、token 用量与成本（按量道实价）、时延、环境指纹、按证据纪律写的定性裁决。
-- 题目、oracle、transcript、中间产物**永不公开**（见下「发布纪律」）。
-- 姐妹仓：[amber-commandcode](https://github.com/getaskclaw/amber-commandcode)（CommandCode 道）、[amber-opencode](https://github.com/getaskclaw/amber-opencode)（OpenCode Go 道）、[amber-deepseek](https://github.com/getaskclaw/amber-deepseek)、[amber-gpt](https://github.com/getaskclaw/amber-gpt)、[amber-crof](https://github.com/getaskclaw/amber-crof)、[amber-ollama](https://github.com/getaskclaw/amber-ollama)、[amber-devin](https://github.com/getaskclaw/amber-devin)。本仓的对照轴是**同名模型跨厂商对决**——同一个模型名在 Nous Portal / CommandCode / xAI 官方道上可能是不同端点，跨仓引用一律带日期与档位声明。
-- AMBER 是 agentic 实战题库（施工/运维/审查/视觉/需求漂移），规范与制题工具见 [getaskclaw/amber](https://github.com/getaskclaw/amber)；考题本体私有。
+- 每期一篇 `results/YYYY-Www.md`：同一套题、同一套考试程序（harness，自动让模型做题并记分的工具），对目标模型跑全库；同名模型跨厂商并排。
+- 一期固定报告：题集规模与哈希（hash=防偷换题目的指纹）、每题（案）的 d2 分（我们的打分，算法不公开）与通过/失败、终端终态、token 用量与成本（按量计费的渠道如实报价）、时延、环境指纹、按证据纪律写的定性裁决。
+- 题目、oracle（判分器）、transcript（答题全过程记录）、中间产物**永不公开**（见下「发布纪律」）。
+- AMBER 是 agentic 实战题库（施工/运维/审查/视觉/需求漂移——题中要求中途变化），规范与制题工具见 [getaskclaw/amber](https://github.com/getaskclaw/amber)；考题本体私有。
+- 「道」= 同一个模型名在不同家的卖场/接口（如 CommandCode 道、Nous Portal 道）；「effort 档」= 给模型设置的思考力度档位。跨仓比较时，同名模型在不同「道」上可能是不同端点，引用一律带日期与档位声明。
+
+## 姐妹仓
+
+[amber-commandcode](https://github.com/getaskclaw/amber-commandcode) · [amber-opencode](https://github.com/getaskclaw/amber-opencode) · [amber-deepseek](https://github.com/getaskclaw/amber-deepseek) · [amber-gpt](https://github.com/getaskclaw/amber-gpt) · [amber-crof](https://github.com/getaskclaw/amber-crof) · [amber-ollama](https://github.com/getaskclaw/amber-ollama) · [amber-devin](https://github.com/getaskclaw/amber-devin)
+
 
 ## 最新成绩
 
