@@ -13,7 +13,7 @@ English: [README.en.md](README.en.md)
 
 ## 最新成绩
 
-- **2026-W39** — x-ai/grok-4.7 全库首考 13/24：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [白话版解读](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
+- **2026-W39** — x-ai/grok-4.7 全库首考 13/24：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [图解版](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
 
 
 ## 发布纪律（红线）

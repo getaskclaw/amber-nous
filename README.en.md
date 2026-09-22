@@ -13,7 +13,7 @@ Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) aga
 
 ## Latest results
 
-- **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24: [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [plain-language explainer](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
+- **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24: [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [explainer with chart](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
 
 
 ## Publication rules (hard lines)
