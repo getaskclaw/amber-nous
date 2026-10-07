@@ -2,21 +2,21 @@
 
 # amber-nous
 
-> ⚠️ **Correction (2026-10-02, second)**: one defense-axis case, A-d511f9e8, is now NA on every lane (the exam room did not grade the file the candidate delivered, and the grader asks for something the task text does not say). The denominator and the **number of passed cases do not change**; every lane's total now carries `'`. In this repo's issue tables, read that cell as NA. Everything else stays as published; the [correction notice](https://github.com/getaskclaw/amber/blob/main/docs/corrections-2026-10-02-a-d511f9e8.en.md) governs.
+> ⚠️ **Correction (2026-10-02, second)**: one defense case, A-d511f9e8, is now NA on every lane (the exam room did not grade the file the model gave in, and the grader asks for something the task text does not say). The denominator and the **number of passed cases do not change**; every lane's total now carries `'`. In this repo's issue tables, read that cell as NA. Everything else stays as published; the [correction notice](https://github.com/getaskclaw/amber/blob/main/docs/corrections-2026-10-02-a-d511f9e8.en.md) governs.
 
-> ⚠️ **Correction (2026-10-02)**: the papers below were answered by a candidate that stepped outside its paper and touched grading material; they count neither as a pass nor as a fail. grok-4.7 @ Nous Portal: 2 papers (A-be92627f, A-a5608487) now NA, score 13/24 → **11'/24**; the A-be92627f and A-a5608487 cells of grok-4.7 @ CommandCode (incomplete, unranked) change from ✓ to NA. The cause was an isolation defect in our exam setup; the fault is ours. The rest of this page stays as published; where they differ, the [correction notice](https://github.com/getaskclaw/amber/blob/main/docs/corrections-2026-10-02.en.md) governs.
+> ⚠️ **Correction (2026-10-02)**: the papers below were answered by a model that left its own paper and touched grading material; they count neither as a pass nor as a fail. grok-4.7 @ Nous Portal: 2 papers (A-be92627f, A-a5608487) now NA, score 13/24 → **11'/24**; the A-be92627f and A-a5608487 cells of grok-4.7 @ CommandCode (incomplete, unranked) change from ✓ to NA. The cause was an isolation fault in our exam setup; the fault is ours. The rest of this page stays as published; where they differ, the [correction notice](https://github.com/getaskclaw/amber/blob/main/docs/corrections-2026-10-02.en.md) governs.
 
-Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
+Results from testing models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
 
-> **In one line**: we hand AI models real work — fix a bug, find a root cause, review a system screenshot, operate a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Grok 4.7 passed 13 of 24 tasks, is the family's best root-cause detective, and on 7 tasks it wrote one line of plan and handed in the page.
+> **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Grok 4.7 passed 13 of 24 tasks, is the family's best root-cause detective, and on 7 tasks it wrote one line of plan and handed in the page.
 
 ## What this is
 
 - One `results/YYYY-Www.md` per period: same questions, same harness (the program that runs the exam and scores it), full-library runs; same-named models compared across vendors.
-- Each report pins: suite size and hashes (a hash is the fingerprint that proves questions were not swapped), per-case d2 scores (our own scoring; the algorithm stays private) and pass/fail, terminal states, token usage and cost (real prices on pay-as-you-go lanes), latency, environment fingerprints, and qualitative verdicts written under evidence discipline.
+- Each report pins: suite size and hashes (a hash is the fingerprint that proves questions were not swapped), per-case d2 scores (our own scoring; the algorithm stays private) and pass/fail, terminal states, token usage and cost (real prices on pay-as-you-go lanes), latency, environment fingerprints, and verdicts written under evidence rules.
 - Questions, oracles (the graders), transcripts (full answer logs), and intermediate artifacts are **never published** (see "Publication rules").
-- AMBER is an agentic, real-work suite (build / ops / review / vision / requirement-drift — the requirements change mid-task). Spec and tooling: [getaskclaw/amber](https://github.com/getaskclaw/amber); the question bodies stay private.
-- A "lane" is one vendor's shop/API for a model name (e.g. the CommandCode lane, the Nous Portal lane); "effort band" is the thinking-effort setting we give the model. The same model name on different lanes may be a different endpoint, so cross-repo references always carry date and band declarations.
+- AMBER is an agentic, real-work suite (build / ops / review / vision / requirement-drift — the requirements change mid-task). Spec and tools: [getaskclaw/amber](https://github.com/getaskclaw/amber); the question bodies stay private.
+- A "lane" is one vendor's shop/API for a model name (e.g. the CommandCode lane, the Nous Portal lane); "effort band" is the thinking-effort setting we give the model. The same model name on different lanes may be a different endpoint, so cross-repo references always carry date and band.
 
 ## Sibling repos
 
@@ -30,8 +30,8 @@ Benchmarking models sold on **Nous Portal** (inference-api.nousresearch.com) aga
 
 ## Publication rules (hard lines)
 
-1. Publish only: scores and aggregates, token usage and cost, speed, qualitative verdicts.
-2. Never publish: question content, oracles/graders, transcripts, candidate workspaces, or any intermediate artifact that could reconstruct a question.
-3. Every issue pins: model ID, effort band, date (UTC), harness version, per-case content hash (bundle_sha), cross-checked against the public hash index in [amber](https://github.com/getaskclaw/amber).
+1. Publish only: scores and totals, token usage and cost, speed, verdicts.
+2. Never publish: question content, oracles/graders, transcripts, candidate workspaces, or any intermediate artifact that could rebuild a question.
+3. Every issue pins: model ID, effort band, date (UTC), harness version, per-case content hash (bundle_sha), checked against the public hash index in [amber](https://github.com/getaskclaw/amber).
 4. Case numbers and suite structure are private: public results use stable aliases (A-xxxxxxxx, hash-derived) plus bundle hashes only; internal case IDs, variant names, and question descriptions never appear.
-5. Tone: this is community measurement, not an attack on vendors. Data talks; wording stays restrained.
+5. Tone: this is community measurement, not an attack on vendors. Data talks; wording stays simple.
