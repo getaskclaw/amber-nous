@@ -1,4 +1,4 @@
-[English](README.md) · 简体中文
+[简体中文](README.md) · English
 
 # amber-nous
 
@@ -8,7 +8,7 @@
 
 Results from testing models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
 
-> **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Grok 4.7 passed 13 of 24 tasks, is the family's best root-cause detective, and on 7 tasks it wrote one line of plan and handed in the page.
+> **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Claude Haiku 5.5 passed 16 of 24 tasks on a bill under five dollars, near-perfect on build/ops work, but none of the three deep-analysis tasks passed (one held library-wide).
 
 ## What this is
 
@@ -24,9 +24,10 @@ Results from testing models sold on **Nous Portal** (inference-api.nousresearch.
 
 ## Latest results
 
-- **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24: [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [explainer with chart](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
+- **2026-W41** — anthropic/claude-haiku-5.5 first full-library run, 16'/24: [full report](results/2026-W41.en.md)（[中文](results/2026-W41.md)）
+- **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24 (two papers voided per the 2026-10-02 adjudication, corrected to 11'/24 — see the banner at the top of the issue): [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [explainer with chart](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
 
-![Win rate per axis](results/assets/2026-W39-axes.en.png)
+![Board composition](results/assets/2026-W41-composition.en.png)
 
 ## Publication rules (hard lines)
 
