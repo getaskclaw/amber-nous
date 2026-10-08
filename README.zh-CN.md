@@ -8,7 +8,7 @@
 
 用私有题库 **AMBER** 实测 Nous Portal（inference-api.nousresearch.com）在售模型，只公开结果，不公开题目。
 
-> **一句话**：我们给 AI 模型出「真实工作考卷」——修 bug、查事故原因、看系统截图挑毛病、真上手运维——这个仓放 **Nous Portal 商店里模型**的成绩单。最新一期：Grok 4.7 考 24 案过 13 案（案 = 一道题），查事故原因全家最强，但有 7 案只写了一句计划就交卷。
+> **一句话**：我们给 AI 模型出「真实工作考卷」——修 bug、查事故原因、看系统截图挑毛病、真上手运维——这个仓放 **Nous Portal 商店里模型**的成绩单。最新一期：Claude Haiku 5.5 考 24 案过 16 案（案 = 一道题），账单不到五美元，施工运维面接近满钉，但深度分析三案无一过线。
 
 ## 这是什么
 
@@ -24,9 +24,10 @@
 
 ## 最新成绩
 
-- **2026-W39** — x-ai/grok-4.7 全库首考 13/24：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [图解版](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
+- **2026-W41** — anthropic/claude-haiku-5.5 全库首考 16'/24：[正刊](results/2026-W41.md)（[English](results/2026-W41.en.md)）
+- **2026-W39** — x-ai/grok-4.7 全库首考 13/24（2026-10-02 裁定两卷作废，更正为 11'/24，见页首更正条）：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [图解版](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
 
-![逐轴胜率对拍](results/assets/2026-W39-axes.zh.png)
+![榜单构成](results/assets/2026-W41-composition.zh.png)
 
 ## 发布纪律（红线）
 
