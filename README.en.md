@@ -27,7 +27,7 @@ Results from testing models sold on **Nous Portal** (inference-api.nousresearch.
 - **2026-W41** — anthropic/claude-haiku-5.5 first full-library run, 16'/24: [full report](results/2026-W41.en.md)（[中文](results/2026-W41.md)）
 - **2026-W39** — x-ai/grok-4.7 first full-library run, 13/24 (two papers voided per the 2026-10-02 adjudication, corrected to 11'/24 — see the banner at the top of the issue): [full report](results/2026-W39.en.md)（[中文](results/2026-W39.md)）· [explainer with chart](docs/explainers/2026-W39-g47-plain.en.md)（[中文](docs/explainers/2026-W39-g47-plain.md)）
 
-![Board composition](results/assets/2026-W41-composition.en.png)
+![Board composition](results/assets/2026-W41-composition.en.png?v=20261009)
 
 ## Publication rules (hard lines)
 

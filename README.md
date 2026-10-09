@@ -27,7 +27,7 @@
 - **2026-W41** — anthropic/claude-haiku-5.5 全库首考 16'/24：[正刊](results/2026-W41.md)（[English](results/2026-W41.en.md)）
 - **2026-W39** — x-ai/grok-4.7 全库首考 13/24（2026-10-02 裁定两卷作废，更正为 11'/24，见页首更正条）：[正刊](results/2026-W39.md)（[English](results/2026-W39.en.md)）· [图解版](docs/explainers/2026-W39-g47-plain.md)（[English](docs/explainers/2026-W39-g47-plain.en.md)）
 
-![榜单构成](results/assets/2026-W41-composition.zh.png)
+![榜单构成](results/assets/2026-W41-composition.zh.png?v=20261009)
 
 ## 发布纪律（红线）
 
