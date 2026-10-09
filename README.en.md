@@ -10,6 +10,30 @@ Results from testing models sold on **Nous Portal** (inference-api.nousresearch.
 
 > **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Claude Haiku 5.5 passed 16 of 24 tasks on a bill under five dollars, near-perfect on build/ops work, but none of the three deep-analysis tasks passed (one held library-wide).
 
+## Scoreboard
+
+<!-- scoreboard:start -->
+
+![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5](results/assets/scoreboard.en.png?v=20261009)
+
+| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) |
+|---|---|---|:-:|
+| Building | Coding | Implement the spec correctly | 5/6 |
+|  | Delivery | Done means handed in | 3/3 |
+|  | Ops | Follow the runbook | 5/6 · 1 NA |
+|  | Requirements | Ship A when A was asked | 0/1 |
+|  | Convergence | Finish, don't spin | 1/1 |
+| Judging | UI | Build the page to the mock | 0/1 |
+|  | Vision | Spot defects in screenshots | 0/1 |
+|  | Defense | Plug every hole in the validator | 0/2 · 1 NA |
+|  | Attribution | Pin defects to their root cause | 0/1 |
+|  | Review | Inspect someone else's work | 2/2 |
+|  | **Total** |  | **16'/24** |
+
+Each cell = cases passed / cases on that axis (a case is one scored task). NA = the case was voided or put on hold; it counts as neither a pass nor a fail, and a total carrying `'` contains at least one NA. Most axes hold only 1–2 cases, so one case moves the reading: do not over-read small gaps. All columns are from the same week (W41) and the test dates may differ; every number is a snapshot.
+
+<!-- scoreboard:end -->
+
 ## What this is
 
 - One `results/YYYY-Www.md` per period: same questions, same harness (the program that runs the exam and scores it), full-library runs; same-named models compared across vendors.
