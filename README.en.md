@@ -14,21 +14,25 @@ Results from testing models sold on **Nous Portal** (inference-api.nousresearch.
 
 <!-- scoreboard:start -->
 
-![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5](results/assets/scoreboard.en.png?v=20261009)
+![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5, laguna-s-2.1 (Nous Portal)](results/assets/scoreboard.en.png?v=20261009)
 
-| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) |
-|---|---|---|:-:|
-| Building | Coding | Implement the spec correctly | 5/6 |
-|  | Delivery | Done means handed in | 3/3 |
-|  | Ops | Follow the runbook | 5/6 · 1 NA |
-|  | Requirements | Ship A when A was asked | 0/1 |
-|  | Convergence | Finish, don't spin | 1/1 |
-| Judging | UI | Build the page to the mock | 0/1 |
-|  | Vision | Spot defects in screenshots | 0/1 |
-|  | Defense | Plug every hole in the validator | 0/2 · 1 NA |
-|  | Attribution | Pin defects to their root cause | 0/1 |
-|  | Review | Inspect someone else's work | 2/2 |
-|  | **Total** |  | **16'/24** |
+| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) | laguna-s-2.1 (Nous Portal) · [W41](results/2026-W41.en.md) |
+|---|---|---|:-:|:-:|
+| Building | Coding | Implement the spec correctly | 5/6 | 4/6 · 1 NA |
+|  | Delivery | Done means handed in | 3/3 | 3/3 |
+|  | Ops | Follow the runbook | 5/6 · 1 NA | 6/6 |
+|  | Requirements | Ship A when A was asked | 0/1 | 1/1 |
+|  | Convergence | Finish, don't spin | 1/1 | 1/1 |
+| Judging | UI | Build the page to the mock | 0/1 | 0/1 |
+|  | Vision | Spot defects in screenshots | 0/1 | 0/1 |
+|  | Defense | Plug every hole in the validator | 0/2 · 1 NA | 0/2 · 2 NA |
+|  | Attribution | Pin defects to their root cause | 0/1 | 0/1 · 1 NA |
+|  | Review | Inspect someone else's work | 2/2 | 1/2 · 1 NA |
+|  | **Total** |  | **16'/24** | **16'/24** |
+
+- **Full marks for all**: Delivery, Convergence.
+- **None passed by any**: UI, Vision, Defense, Attribution (not one pass on these axes; NA does not count as a fail).
+- **Where they differ** (numbers follow the table columns, left to right): Coding 5/6 vs 4/6 · 1 NA, Ops 5/6 · 1 NA vs 6/6, Requirements 0/1 vs 1/1, Review 2/2 vs 1/2 · 1 NA.
 
 Each cell = cases passed / cases on that axis (a case is one scored task). NA = the case was voided or put on hold; it counts as neither a pass nor a fail, and a total carrying `'` contains at least one NA. Most axes hold only 1–2 cases, so one case moves the reading: do not over-read small gaps. All columns are from the same week (W41) and the test dates may differ; every number is a snapshot.
 
