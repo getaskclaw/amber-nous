@@ -6,7 +6,7 @@
 
 > ⚠️ **Correction (2026-10-02)**: the papers below were answered by a model that left its own paper and touched grading material; they count neither as a pass nor as a fail. grok-4.7 @ Nous Portal: 2 papers (A-be92627f, A-a5608487) now NA, score 13/24 → **11'/24**; the A-be92627f and A-a5608487 cells of grok-4.7 @ CommandCode (incomplete, unranked) change from ✓ to NA. The cause was an isolation fault in our exam setup; the fault is ours. The rest of this page stays as published; where they differ, the [correction notice](https://github.com/getaskclaw/amber/blob/main/docs/corrections-2026-10-02.en.md) governs.
 
-Results from testing models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
+Results from testing models sold on **Nous Portal** (the model store run by Nous Research, the team behind Hermes) against the private **AMBER** suite — results only, never the questions.
 
 > **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Claude Haiku 5.5 passed 16 of 24 tasks on a bill under five dollars, near-perfect on build/ops work, but none of the three deep-analysis tasks passed (one held library-wide). Also in W41: stealth/missingno (Nous Portal free tier, $0) passed 7 of 24 cases on its first sitting; see the table below.
 
@@ -43,10 +43,12 @@ Each cell = cases passed / cases on that axis (a case is one scored task). NA = 
 ## What this is
 
 - One `results/YYYY-Www.md` per period: same questions, same harness (the program that runs the exam and scores it), full-library runs; same-named models compared across vendors.
+- **Conflict-of-interest disclosure**: we run this repo's exams on Hermes, Nous Research's own harness; we state it here for the record.
 - Each report pins: suite size and hashes (a hash is the fingerprint that proves questions were not swapped), per-case d2 scores (our own scoring; the algorithm stays private) and pass/fail, terminal states, token usage and cost (real prices on pay-as-you-go lanes), latency, environment fingerprints, and verdicts written under evidence rules.
 - Questions, oracles (the graders), transcripts (full answer logs), and intermediate artifacts are **never published** (see "Publication rules").
 - AMBER is an agentic, real-work suite (build / ops / review / vision / requirement-drift — the requirements change mid-task). Spec and tools: [getaskclaw/amber](https://github.com/getaskclaw/amber); the question bodies stay private.
 - A "lane" is one vendor's shop/API for a model name (e.g. the CommandCode lane, the Nous Portal lane); "effort band" is the thinking-effort setting we give the model. The same model name on different lanes may be a different endpoint, so cross-repo references always carry date and band.
+- Source endpoint: Nous Portal's inference API, `inference-api.nousresearch.com` (`/v1`); this repo tests the models on sale at that endpoint.
 
 ## Sibling repos
 
