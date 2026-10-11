@@ -14,9 +14,9 @@
 
 <!-- scoreboard:start -->
 
-![amber-nous 成绩一览：claude-haiku-5.5、laguna-s-2.1 (Nous Portal)、stealth/missingno 逐轴过案数](results/assets/scoreboard.zh.png?v=20261011)
+![amber-nous 成绩一览：claude-haiku-5.5、laguna-s-2.1、stealth/missingno 逐轴过案数](results/assets/scoreboard.zh.png?v=20261011b)
 
-| 大类 | 轴 | 考什么 | claude-haiku-5.5 · [W41](results/2026-W41.md) | laguna-s-2.1 (Nous Portal) · [W41](results/2026-W41.md) | stealth/missingno · [W41](results/2026-W41.md) |
+| 大类 | 轴 | 考什么 | claude-haiku-5.5 · [W41](results/2026-W41.md) | laguna-s-2.1 · [W41](results/2026-W41.md) | stealth/missingno · [W41](results/2026-W41.md) |
 |---|---|---|:-:|:-:|:-:|
 | 施工面 | 编码 | 照着需求把功能写对 | 5/6 | 4/6 · 1 NA | 2/6 |
 |  | 交付 | 做完还得交得出东西 | 3/3 | 3/3 | 2/3 |

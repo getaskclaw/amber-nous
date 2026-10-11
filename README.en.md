@@ -14,9 +14,9 @@ Results from testing models sold on **Nous Portal** (inference-api.nousresearch.
 
 <!-- scoreboard:start -->
 
-![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5, laguna-s-2.1 (Nous Portal), stealth/missingno](results/assets/scoreboard.en.png?v=20261011)
+![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5, laguna-s-2.1, stealth/missingno](results/assets/scoreboard.en.png?v=20261011b)
 
-| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) | laguna-s-2.1 (Nous Portal) · [W41](results/2026-W41.en.md) | stealth/missingno · [W41](results/2026-W41.en.md) |
+| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) | laguna-s-2.1 · [W41](results/2026-W41.en.md) | stealth/missingno · [W41](results/2026-W41.en.md) |
 |---|---|---|:-:|:-:|:-:|
 | Building | Coding | Implement the spec correctly | 5/6 | 4/6 · 1 NA | 2/6 |
 |  | Delivery | Done means handed in | 3/3 | 3/3 | 2/3 |
