@@ -8,33 +8,35 @@
 
 Results from testing models sold on **Nous Portal** (inference-api.nousresearch.com) against the private **AMBER** suite — results only, never the questions.
 
-> **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Claude Haiku 5.5 passed 16 of 24 tasks on a bill under five dollars, near-perfect on build/ops work, but none of the three deep-analysis tasks passed (one held library-wide).
+> **In one line**: we give AI models real work — fix a bug, find a root cause, check a system screenshot, run a live system — and this repo holds the report cards for models sold on **Nous Portal**. Latest issue: Claude Haiku 5.5 passed 16 of 24 tasks on a bill under five dollars, near-perfect on build/ops work, but none of the three deep-analysis tasks passed (one held library-wide). Also in W41: stealth/missingno (Nous Portal free tier, $0) passed 7 of 24 cases on its first sitting; see the table below.
 
 ## Scoreboard
 
 <!-- scoreboard:start -->
 
-![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5, laguna-s-2.1 (Nous Portal)](results/assets/scoreboard.en.png?v=20261009)
+![amber-nous scoreboard: cases passed per axis for claude-haiku-5.5, laguna-s-2.1 (Nous Portal), stealth/missingno](results/assets/scoreboard.en.png?v=20261011)
 
-| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) | laguna-s-2.1 (Nous Portal) · [W41](results/2026-W41.en.md) |
-|---|---|---|:-:|:-:|
-| Building | Coding | Implement the spec correctly | 5/6 | 4/6 · 1 NA |
-|  | Delivery | Done means handed in | 3/3 | 3/3 |
-|  | Ops | Follow the runbook | 5/6 · 1 NA | 6/6 |
-|  | Requirements | Ship A when A was asked | 0/1 | 1/1 |
-|  | Convergence | Finish, don't spin | 1/1 | 1/1 |
-| Judging | UI | Build the page to the mock | 0/1 | 0/1 |
-|  | Vision | Spot defects in screenshots | 0/1 | 0/1 |
-|  | Defense | Plug every hole in the validator | 0/2 · 1 NA | 0/2 · 2 NA |
-|  | Attribution | Pin defects to their root cause | 0/1 | 0/1 · 1 NA |
-|  | Review | Inspect someone else's work | 2/2 | 1/2 · 1 NA |
-|  | **Total** |  | **16'/24** | **16'/24** |
+| Group | Axis | What it tests | claude-haiku-5.5 · [W41](results/2026-W41.en.md) | laguna-s-2.1 (Nous Portal) · [W41](results/2026-W41.en.md) | stealth/missingno · [W41](results/2026-W41.en.md) |
+|---|---|---|:-:|:-:|:-:|
+| Building | Coding | Implement the spec correctly | 5/6 | 4/6 · 1 NA | 2/6 |
+|  | Delivery | Done means handed in | 3/3 | 3/3 | 2/3 |
+|  | Ops | Follow the runbook | 5/6 · 1 NA | 6/6 | 3/6 |
+|  | Requirements | Ship A when A was asked | 0/1 | 1/1 | 0/1 |
+|  | Convergence | Finish, don't spin | 1/1 | 1/1 | 0/1 |
+| Judging | UI | Build the page to the mock | 0/1 | 0/1 | 0/1 |
+|  | Vision | Spot defects in screenshots | 0/1 | 0/1 | 0/1 |
+|  | Defense | Plug every hole in the validator | 0/2 · 1 NA | 0/2 · 2 NA | 0/2 · 1 NA |
+|  | Attribution | Pin defects to their root cause | 0/1 | 0/1 · 1 NA | 0/1 |
+|  | Review | Inspect someone else's work | 2/2 | 1/2 · 1 NA | 0/2 |
+|  | **Total** |  | **16'/24** | **16'/24** | **7'/24** |
 
-- **Full marks for all**: Delivery, Convergence.
+- **Axes with full marks in every column**: none.
 - **None passed by any**: UI, Vision, Defense, Attribution (not one pass on these axes; NA does not count as a fail).
-- **Where they differ** (numbers follow the table columns, left to right): Coding 5/6 vs 4/6 · 1 NA, Ops 5/6 · 1 NA vs 6/6, Requirements 0/1 vs 1/1, Review 2/2 vs 1/2 · 1 NA.
+- **Where they differ** (numbers follow the table columns, left to right): Coding 5/6 vs 4/6 · 1 NA vs 2/6, Delivery 3/3 vs 3/3 vs 2/3, Ops 5/6 · 1 NA vs 6/6 vs 3/6, Requirements 0/1 vs 1/1 vs 0/1, Convergence 1/1 vs 1/1 vs 0/1, Review 2/2 vs 1/2 · 1 NA vs 0/2.
 
 Each cell = cases passed / cases on that axis (a case is one scored task). NA = the case was voided or put on hold; it counts as neither a pass nor a fail, and a total carrying `'` contains at least one NA. Most axes hold only 1–2 cases, so one case moves the reading: do not over-read small gaps. All columns are from the same week (W41) and the test dates may differ; every number is a snapshot.
+
+⚑ stealth/missingno: two operations cases (A-24bcf707, A-984e80ee) are under review. Until then they count as recorded (fails), so its ops 3/6 includes them. A correction will follow if the review changes them.
 
 <!-- scoreboard:end -->
 
